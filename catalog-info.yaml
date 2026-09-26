@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cloudflare-app
+  namespace: cloudflare
+  description: Cloudflare Tunnel, ExternalDNS, and Cert-Manager infra
+  annotations:
+    backstage.io/version: "v0.1.0"
+    glauciolabs.com/archetype: "infra"
+spec:
+  type: service
+  lifecycle: production
+  owner: devops
