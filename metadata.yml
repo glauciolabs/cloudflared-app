@@ -1,5 +1,0 @@
-app:
-  name: cloudflare-app
-  version: v0.1.0
-  project: devops
-  namespace: cloudflare
